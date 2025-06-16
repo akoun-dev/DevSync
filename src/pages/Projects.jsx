@@ -30,7 +30,9 @@ function Projects() {
     save(list)
   }
 
-  const logout = () => {
+  const logout = async () => {
+    const { supabase } = await import('../supabaseClient')
+    await supabase.auth.signOut()
     localStorage.removeItem('devsync_user')
     navigate('/')
   }
