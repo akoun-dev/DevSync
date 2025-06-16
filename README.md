@@ -53,3 +53,31 @@
 ```bash
 git clone https://github.com/votre-utilisateur/devsync.git
 cd devsync
+```
+
+### 2. Installer les dépendances
+
+```bash
+npm install
+```
+
+### 3. Configurer les variables d'environnement
+
+Créez un fichier `.env` à la racine du projet avec au minimum :
+
+```bash
+VITE_SUPABASE_URL=<votre-url-supabase>
+VITE_SUPABASE_ANON_KEY=<votre-anon-key>
+```
+
+### 4. Lancer le serveur de développement
+
+```bash
+npm run dev
+```
+
+### 5. Construire la version de production
+
+```bash
+npm run build
+```
