@@ -51,5 +51,5 @@
 ### 1. Cloner le repo
 
 ```bash
-git clone https://github.com/votre-utilisateur/devsync.git
-cd devsync
+git clone https://github.com/akoun-dev/DevSync.git
+cd DevSync
